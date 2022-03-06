@@ -1,0 +1,20 @@
+[package]
+name = "tdbg"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+description = "Quick and dirty debugging"
+homepage = "https://github.com/sagittarius-a/tdbg"
+repository = "https://github.com/sagittarius-a/tdbg"
+readme = "README.md"
+keywords = ["debugging", "dbg"]
+categories = ["command-line-utilities", "development-tools::debugging"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "tdbg"
+path = "src/server.rs"
+
